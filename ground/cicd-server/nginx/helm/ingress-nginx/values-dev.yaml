@@ -9,8 +9,8 @@ controller:
     
     # Node Port 번호 지정
     nodePorts:
-      http: "31080"
-      https: "31443"
+      http: "80"
+      https: "443"
 
   # Nginx 설치시 ingressClass 생성 (default : true)
   ingressClassResource:
